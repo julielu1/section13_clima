@@ -18,6 +18,7 @@
 		ADAA27CE231BC87F00365194 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27CD231BC87F00365194 /* README.md */; };
 		BF1B60F329B9F14D00194E08 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B60F229B9F14D00194E08 /* WeatherManager.swift */; };
 		BF1B60F529BB3EC500194E08 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B60F429BB3EC500194E08 /* WeatherData.swift */; };
+		BF1B60F729BC5CFF00194E08 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B60F629BC5CFF00194E08 /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		ADAA27CD231BC87F00365194 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BF1B60F229B9F14D00194E08 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		BF1B60F429BB3EC500194E08 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		BF1B60F629BC5CFF00194E08 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				BF1B60F229B9F14D00194E08 /* WeatherManager.swift */,
+				BF1B60F629BC5CFF00194E08 /* WeatherModel.swift */,
 				BF1B60F429BB3EC500194E08 /* WeatherData.swift */,
 			);
 			path = Model;
@@ -184,6 +187,7 @@
 				BF1B60F529BB3EC500194E08 /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				BF1B60F329B9F14D00194E08 /* WeatherManager.swift in Sources */,
+				BF1B60F729BC5CFF00194E08 /* WeatherModel.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

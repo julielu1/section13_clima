@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct WeatherData: Decodable {
+struct WeatherData: Codable {
     //Struct confirms to decoder protocol - it means that the weather data turns into a type that can decode itself from an external representation.
     let name: String
     let main: Main
@@ -23,5 +23,6 @@ struct Main: Decodable {
 }
 
 struct Weather: Decodable {
-    let description: String
+    // let description: String - Change it since we're not going to use it
+    let id: Int
 }

@@ -41,15 +41,21 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
         
         if let city = searchTextField.text {
             weatherManager.fetchWeather(cityName: city)
-            
         }
         
         searchTextField.text = ""
     }
     
+    func didUpdateWeather(_weatherManager: WeatherManager, weather: WeatherModel) {
+        print(weather.temperature)
+    }
+    
+    func didFailWithError(error: Error) {
+        print(error)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        weatherManager.delegate = self // Must do this so that the weather manager delegate property is not nil
         searchTextField.delegate = self
         // Do any additional setup after loading the view.
     }
