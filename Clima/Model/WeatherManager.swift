@@ -43,7 +43,7 @@ struct WeatherManager {
                     //let dataString = String(data: safeData, encoding: .utf8)
                     //print(dataString)
                     if let weather = self.parseJSON(weatherData: safeData) {
-                        delegate?.didUpdateWeather(self, weather: weather)
+                        delegate?.didUpdateWeather(_weatherManager: self, weather: weather)
                     }
                     // We must add self when calling a method from its own class
                 }
